@@ -2,8 +2,8 @@
 
 body {
 	background: #c0392b;
-	font-family: sans-serif;
-
+	font-family: 'Economica', sans-serif;
+	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	-webkit-backface-visibility: hidden;
 }
