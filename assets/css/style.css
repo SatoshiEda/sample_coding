@@ -1,0 +1,65 @@
+body{
+	background-color: azure;
+	font-family:sans-serif;
+}
+header, main, footer{
+	width:1200px;
+	margin:0 auto;
+}
+
+header{
+	background-color: aquamarine;
+	margin-bottom:30px;
+}
+nav{
+	background-color: #04ad77;
+	text-align: right;
+}
+nav ul li{
+	display: inline-block;
+	padding-right:1em;
+	margin-right:1em;
+}
+
+main{
+	background-color: burlywood;
+	margin-bottom:30px;
+}
+
+main .pagination {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	padding: 0;
+}
+main .pagination li {
+	margin: 0 10px;
+}
+main .pagination a {
+	text-decoration: none;
+	color: #007bff;
+	padding: 8px 16px;
+	border: 1px solid #0180d0;
+}
+
+main .pagination a:hover {
+	background-color: #ddd;
+}
+
+
+
+table{
+	border-collapse:collapse;
+}
+table, td, th {
+	border: 1px #000 solid;
+}
+th {
+	background-color: #0180d0;
+}
+
+
+footer{
+	text-align: center;
+	background-color: lightgreen;
+}
